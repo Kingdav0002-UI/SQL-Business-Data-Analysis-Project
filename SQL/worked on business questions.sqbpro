@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?><sqlb_project><db path="C:/Users/Monarch/Downloads/Business_db.sqlite3" readonly="0" foreign_keys="1" case_sensitive_like="0" temp_store="0" wal_autocheckpoint="1000" synchronous="2"/><attached/><window><main_tabs open="structure query browser pragmas" current="1"/></window><tab_structure><column_width id="0" width="300"/><column_width id="1" width="0"/><column_width id="2" width="100"/><column_width id="3" width="3036"/><column_width id="4" width="0"/><expanded_item id="7" parent="0"/><expanded_item id="0" parent="1"/><expanded_item id="1" parent="1"/><expanded_item id="2" parent="1"/><expanded_item id="3" parent="1"/></tab_structure><tab_browse><table title="Orders" custom_title="0" dock_id="1" table="4,6:mainOrders"/><dock_state state="000000ff00000000fd00000001000000020000054a0000024ffc0100000001fb000000160064006f0063006b00420072006f007700730065003101000000000000054a0000016200ffffff0000054a0000000000000004000000040000000800000008fc00000000"/><default_encoding codec=""/><browse_table_settings><table schema="main" name="Alphabetical list of products" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_" freeze_columns="0"><sort/><column_widths><column index="1" value="65"/><column index="2" value="263"/><column index="3" value="67"/><column index="4" value="73"/><column index="5" value="167"/><column index="6" value="59"/><column index="7" value="81"/><column index="8" value="84"/><column index="9" value="84"/><column index="10" value="81"/><column index="11" value="119"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="Categories" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_" freeze_columns="0"><sort/><column_widths><column index="1" value="73"/><column index="2" value="119"/><column index="3" value="72"/><column index="4" value="48"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="Customers" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_" freeze_columns="0"><sort/><column_widths><column index="1" value="76"/><column index="2" value="295"/><column index="3" value="191"/><column index="4" value="247"/><column index="5" value="300"/><column index="6" value="127"/><column index="7" value="111"/><column index="8" value="79"/><column index="9" value="95"/><column index="10" value="143"/><column index="11" value="143"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="Employees" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_" freeze_columns="0"><sort/><column_widths><column index="1" value="76"/><column index="2" value="79"/><column index="3" value="71"/><column index="4" value="199"/><column index="5" value="96"/><column index="6" value="175"/><column index="7" value="183"/><column index="8" value="175"/><column index="9" value="71"/><column index="10" value="47"/><column index="11" value="71"/><column index="12" value="53"/><column index="13" value="119"/><column index="14" value="63"/><column index="15" value="41"/><column index="16" value="40"/><column index="17" value="67"/><column index="18" value="300"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="Order Details Extended" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_" freeze_columns="0"><sort/><column_widths/><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="OrderDetails" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_" freeze_columns="0"><sort/><column_widths><column index="1" value="53"/><column index="2" value="65"/><column index="3" value="59"/><column index="4" value="57"/><column index="5" value="57"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="Orders" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_" freeze_columns="0"><sort/><column_widths><column index="1" value="52"/><column index="2" value="76"/><column index="3" value="76"/><column index="4" value="87"/><column index="5" value="87"/><column index="6" value="87"/><column index="7" value="49"/><column index="8" value="63"/><column index="9" value="279"/><column index="10" value="300"/><column index="11" value="127"/><column index="12" value="111"/><column index="13" value="95"/><column index="14" value="95"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="Orders Qry" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_" freeze_columns="0"><sort/><column_widths><column index="1" value="52"/><column index="2" value="76"/><column index="3" value="76"/><column index="4" value="87"/><column index="5" value="87"/><column index="6" value="87"/><column index="7" value="49"/><column index="8" value="63"/><column index="9" value="279"/><column index="10" value="300"/><column index="11" value="127"/><column index="12" value="111"/><column index="13" value="95"/><column index="14" value="95"/><column index="15" value="279"/><column index="16" value="300"/><column index="17" value="127"/><column index="18" value="111"/><column index="19" value="79"/><column index="20" value="95"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="Products" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_" freeze_columns="0"><sort/><column_widths><column index="1" value="65"/><column index="2" value="263"/><column index="3" value="67"/><column index="4" value="73"/><column index="5" value="167"/><column index="6" value="59"/><column index="7" value="81"/><column index="8" value="84"/><column index="9" value="84"/><column index="10" value="81"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="Shippers" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_" freeze_columns="0"><sort/><column_widths><column index="1" value="64"/><column index="2" value="135"/><column index="3" value="119"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="Suppliers" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_" freeze_columns="0"><sort/><column_widths><column index="1" value="67"/><column index="2" value="300"/><column index="3" value="215"/><column index="4" value="231"/><column index="5" value="300"/><column index="6" value="111"/><column index="7" value="71"/><column index="8" value="71"/><column index="9" value="95"/><column index="10" value="127"/><column index="11" value="127"/><column index="12" value="69"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table></browse_table_settings></tab_browse><tab_sql><sql name="SQL 1*">--Display all customers and their countries from the customer TABLE
+SELECT ContactName,Country FROM Customers
+
+--show the product name and unit price of all products that cost more than 40.
+SELECT ProductName, UnitPrice FROM Products WHERE UnitPrice &gt; 40
+
+--list all Employees whose city is london
+SELECT FirstName,LastName, City FROM Employees WHERE City = 'London'
+
+--Display all shippers and their phone numbers
+SELECT CompanyName, phone FROM Shippers
+
+--Retrive all orders placed in the year 2014.
+SELECT * FROM Orders
+WHERE strftime('%Y',OrderDate) is '2014'
+
+--Display all supplires located in USA.
+SELECT * FROM Suppliers WHERE Country = 'USA'
+
+--show all Dscontinued proucts.
+SELECT ProductName FROM Products WHERE Discontinued &gt;= 1;
+
+ --8.Retrieve the first name, last name, and birth date of all employees born before 1980.
+ SELECT FirstName,LastName,BirthDate FROM Employees
+ WHERE CAST (substr(Birthdate,instr(BirthDate,'/') + instr(substr(BirthDate,instr(BirthDate,'/')+1),'/') + 1,4) as INTEGER) &lt; 1980
+ 
+ SELECT FirstName,LastName,BirthDate FROM Employees
+ WHERE CAST (substr(Birthdate,length(BirthDate)-15,4) as INTEGER) &lt; 1980
+ 
+ --display all orders with their corresponding customer CompanyName.
+ SELECT OrderId,Orders.CustomerID, CompanyName FROM Orders
+ JOIN Customers on Customers.CustomerID = Orders.CustomerID
+
+ --Show each product with it category name.
+ SELECT ProductName, CategoryName FROM Products
+ JOIN Categories on Categories.CategoryID = Products.CategoryID
+ 
+ --List all suppliers and the product they supply.
+ SELECT Suppliers.CompanyName, ProductName FROM Suppliers
+ JOIN products on Products.SupplierID = Suppliers.SupplierID
+
+ --Display the total number of order placed by each customers.
+ SELECT CompanyName, count(orders.OrderId) as 'Total order made' FROM Customers
+ JOIN Orders on orders.CustomerID = Customers.CustomerID
+ GROUP by CompanyName
+ 
+ --show the total Quantity ordered for each product.
+ SELECT ProductName, count(orderdetails.quantity) as &quot;Total quantity ordered&quot; FROM Products
+JOIN OrderDetails on OrderDetails.ProductID = Products.ProductID 
+GROUP by ProductName
+order by &quot;Total quantity ordered&quot; DESC
+
+--find the average unit price of products in each category
+SELECT CategoryName, avg(Products.UnitPrice) as &quot;Average price of product&quot; FROM Categories
+JOIN Products on Products.CategoryID = Categories.CategoryID
+GROUP by CategoryName
+order by &quot;Average price of product&quot; DESC
+
+--List all employess and the total number of orders they have handled.
+SELECT Employees.EmployeeID, FirstName, LastName, count(orders.OrderId) as &quot;Total order handled&quot; FROM Employees
+JOIN Orders on Orders.EmployeeID = Employees.EmployeeID
+GROUP by FirstName, LastName
+--GROUP by Employees.EmployeeID
+order by &quot;Total order handled&quot; DESC
+
+--Display each shipper and the total number of orders they have delivered.
+SELECT Shippers.CompanyName,Shippers.ShipperID, count(orders.orderid) as &quot;Total order Delivered&quot; FROM Shippers
+JOIN Orders on Orders.ShipVia = Shippers.ShipperID
+GROUP by Shippers.CompanyName
+
+--Show all order along with the employee full name who handled them.
+SELECT Orders.OrderId, Employees.FirstName,Employees.LastName FROM Orders
+JOIN Employees on Employees.EmployeeID = Orders.EmployeeID 
+
+--find the total revenue generated from all orders
+SELECT  sum(UnitPrice * Quantity * (1 - discount)) as &quot;Total Revenue generated&quot; from OrderDetails
+
+SELECT Discount FROM OrderDetails WHERE Discount is NOT NULL LIMIT 5
+
+
+--Display the number of product supplied by each suppiers
+SELECT Suppliers.CompanyName, count(Products.ProductID) as &quot;Total product Supplied&quot; FROM Suppliers
+JOIN Products on Products.SupplierID = Suppliers.SupplierID
+GROUP by Suppliers.CompanyName
+
+--show customers who have placed more than 5 orders.
+ SELECT Customers.CustomerID, Customers.CompanyName FROM Customers
+ JOIN Orders on Orders.CustomerID = Customers.CustomerID
+ GROUP  by Customers.CompanyName HAVING count (Orders.OrderId) &gt; 5
+ 
+ --using an appropriate JOIN and NULL-check logic, determine all customers whose records exist in the Customers table
+-- but who do not have any matching transaction entry in the Orders table.
+SELECT Customers.CompanyName FROM Customers
+LEFT JOIN orders on Customers.CustomerID = Orders.CustomerID
+WHERE orders.OrderId is NULL
+
+--from the product table and related transcational table,identify all products that have never appeared in any order or transaction.
+SELECT Products.ProductName FROM Products
+LEFT JOIN OrderDetails on OrderDetails.ProductID = Products.ProductID
+WHERE OrderDetails.ProductID is NULL
+
+SELECT Products.ProductID,Products.ProductName FROM Products
+LEFT JOIN OrderDetails on Products.ProductID = OrderDetails.ProductID
+WHERE OrderDetails.ProductID is null;
+
+--compute and return the customer whose cumulative purchase value across all orders is the highest, considering quanity and unit price
+SELECT Customers.CompanyName,sum(OrderDetails.UnitPrice * OrderDetails.Quantity * (1-Discount)) as &quot;Cumulative purchase&quot; FROM Customers
+JOIN OrderDetails on OrderDetails.OrderId = Orders.OrderId
+JOIN Orders on orders.CustomerID = Customers.CustomerID
+GROUP by Customers.CompanyName
+ORDER by &quot;Cumulative purchase&quot; DESC
+LIMIT 1;
+
+--Deterrmine the product with the highest total quantity sold across all orders , taking into account repeated purchase
+SELECT Products.ProductID, ProductName, sum(OrderDetails.Quantity) as &quot;Total sold&quot; FROM Products 
+JOIN OrderDetails on OrderDetails.ProductID = Products.ProductID
+GROUP by ProductName
+ORDER by &quot;Total sold&quot; DESC
+LIMIT 1
+
+--identify all orders where the time diffrence betweeen the order date and shipped date exceeds 7 days.
+SELECT OrderId, OrderDate, ShippedDate, CAST(julianday(ShippedDate) - julianday(orderDate) as INTEGER) as &quot;Days to shipped&quot; FROM Orders
+WHERE ShippedDate is NOT NULL
+AND (julianday(shippedDate) - julianday(orderDate)) &gt; 7
+
+SELECT OrderId, OrderDate, ShippedDate, julianday(shippedDate) - julianday(orderDate) as days_diff FROM Orders
+WHERE julianday(shippedDate) - julianday(orderDate) &gt; 7
+
+
+
+--using category-product and order relationship, determine the category whose product have generated the highest tottal sale revenue.
+SELECT CategoryName, sum(OrderDetails.UnitPrice * OrderDetails.Quantity) as &quot;Total sales&quot; from Categories
+JOIN OrderDetails on OrderDetails.ProductID = Products.ProductID
+JOIN Products on Products.CategoryID = Categories.CategoryID
+GROUP by CategoryName
+order by &quot;Total sales&quot; DESC
+LIMIT 1
+
+--Rank employess bsed on the number of orders processed and return only the top 3 highest performing employee.
+SELECT Employees.FirstName, Employees.LastName, count(orders.orderid) as &quot;Total order handled&quot; from Employees 
+JOIN Orders on Orders.EmployeeID = Employees.EmployeeID
+GROUP by Employees.FirstName, Employees.LastName
+ORDER by &quot;Total order handled&quot; DESC
+limit 3
+
+--Determine which supplier products have generated the highest total sales revenue using order transcation data.
+SELECT Suppliers.SupplierID, Suppliers.CompanyName, Products.ProductName, sum(OrderDetails.UnitPrice * OrderDetails.Quantity *(1 -coalesce( orderdetails.discount,0)))
+ as &quot;Total revenue&quot; from Suppliers
+JOIN Products on Products.SupplierID = Suppliers.SupplierID
+JOIN OrderDetails on OrderDetails.ProductID = Products.ProductID
+GROUP by Suppliers.CompanyName
+ORDER by &quot;Total revenue&quot;  DESC 
+LIMIT 1
+
+--from the product table,extract top(5) product with the highest unit price in desecending Order
+SELECT ProductID,ProductName, Products.UnitPrice FROM Products
+ORDER by Products.UnitPrice DESC
+LIMIT 5
+
+--for each shipping company,compute the average freight cost incurred across all shipment handled
+SELECT Shippers.CompanyName, avg(orders.Freight) as &quot;Average Freight&quot; FROM Shippers
+JOIN Orders on Orders.ShipVia = Shippers.ShipperID
+GROUP by shippers.CompanyName
+
+
+SELECT OrderId, OrderDate FROM Orders
+where CustomerID in (SELECT CustomerID FROM Customers WHERE city = 'London')
+
+
+
+</sql><current_tab id="0"/></tab_sql></sqlb_project>
