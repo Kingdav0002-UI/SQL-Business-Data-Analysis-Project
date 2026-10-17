@@ -193,7 +193,7 @@ The questions address several areas of business decision-making.
 
 ## Key Findings
 
-- The customer with the highest cumulative purchase value.<img width="1348" height="657" alt="Highest customer by cumultive purchase" src="https://github.com/user-attachments/assets/b1c9d84e-bbdc-4db2-b47e-467ab7f0499c" />
+- ### The customer with the highest cumulative purchase value.<img width="1348" height="657" alt="Highest customer by cumultive purchase" src="https://github.com/user-attachments/assets/b1c9d84e-bbdc-4db2-b47e-467ab7f0499c" />
 
 **SQL Techniques Used:**
 - `JOIN` to combine customer, order, and order detail records.
