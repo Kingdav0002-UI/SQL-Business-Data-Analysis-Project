@@ -193,7 +193,7 @@ The questions address several areas of business decision-making.
 
 ## Key Findings
 
-- The customer with the highest cumulative purchase value.
+- The customer with the highest cumulative purchase value. ![The customer with the highest cumulative purchase value](screenshots/Hihgest customer by cumulitve purchase)
 - The product with the highest total quantity sold.
 - The category generating the highest sales revenue.
 - The supplier contributing the highest sales revenue.
