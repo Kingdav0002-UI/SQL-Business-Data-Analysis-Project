@@ -1,4 +1,3 @@
-<img width="1277" height="648" alt="Product with highest total quantity sold" src="https://github.com/user-attachments/assets/6c50ff9f-fba9-4780-b95b-2df8689dbca7" />
 # SQL-Business-Data-Anlysis-Project
 A SQL data analysis Project using SQLite to answer 15 business questions and generate insight from trnsactional data.
 
@@ -213,15 +212,75 @@ QUICK-Stop represents the highest-value customer based on the cumulative purchas
 The business could investigate QUICK-Stop's purchasing patterns and explore opportunities to strengthen the customer relationship, encourage repeat purchases, and maintain sales performance.
 
 **Evidence:**  
-See the SQL query and its execution results in the project screenshots.
+See the SQL query and its execution results in the project screenshots above.
 
 - The product with the highest total quantity sold.<img width="1277" height="648" alt="Product with highest total quantity sold" src="https://github.com/user-attachments/assets/08832c94-5282-44a6-b7dd-234bf743be13" />
 
+**SQL Techniques Used:**
+- `JOIN` to connect product records with order transaction details.
+- `SUM()` to calculate the total quantity sold for each product.
+- `GROUP BY` to aggregate quantities by product.
+- `ORDER BY DESC` to rank products by total quantity sold.
+- `LIMIT 1` to return the product with the highest sales volume.
+
+**Finding:**  
+Camembert Pierrot (Product ID: 60) recorded the highest total quantity sold, with **1,577 units** across the order transactions analyzed.
+
+**Business Insight:**  
+Camembert Pierrot had the highest sales volume by quantity in this analysis. This makes it a useful product to investigate when evaluating customer demand and product performance.
+
+**Business Recommendation:**  
+The business could review the product's sales trends and inventory levels to help maintain adequate stock.
+
+**Evidence:**  
+See the SQL query and execution results in the project screenshots above.
+
 - The category generating the highest sales revenue.<img width="1149" height="671" alt="Category with highest product sales revenue" src="https://github.com/user-attachments/assets/02340dd3-a953-4bd2-9931-fdc658c4aed3" />
+
+**SQL Techniques Used:**
+- `JOIN` to connect categories, products, and order details.
+- `SUM()` to calculate total sales value.
+- `GROUP BY` to aggregate sales by category.
+- `ORDER BY DESC` to rank categories by sales.
+- `LIMIT 1` to return the highest-performing category.
+
+**Finding:**  
+The Beverages category generated the highest total sales value, amounting to **286,526.95** in the analyzed transactions.
+
+**Business Insight:**  
+Beverages contributed the highest sales value among the product categories in this analysis. This makes the category an important area to investigate when evaluating product performance and sales opportunities.
+
+**Business Recommendation:**  
+The business could examine the individual products driving Beverages sales, monitor their sales trends, and review inventory levels to help maintain product availability. Further analysis of profit margins would help determine whether the category is also the most profitable.
+
+**Evidence:**  
+See the SQL query and execution results in the project screenshot above.
 
 - The supplier contributing the highest sales revenue.<img width="1341" height="674" alt="Suppliers product highest revenue" src="https://github.com/user-attachments/assets/9ea3a596-c75f-44f7-83a5-335612ae23f8" />
 
+**SQL Techniques Used:**
+- `JOIN` to connect suppliers, products, and order details.
+- `SUM()` to calculate sales revenue.
+- `COALESCE()` to handle NULL discount values.
+- `GROUP BY` to aggregate sales by supplier.
+- `ORDER BY DESC` to rank suppliers by revenue.
+- `LIMIT 1` to return the highest-ranking supplier.
+
+**Finding:**  
+Supplier ID 18 ranked first in the query results, with the product Chartreuse verte appearing alongside a calculated total revenue of **153,691.275**.
+
+**Business Insight:**  
+The result identifies the leading supplier according to the query's revenue calculation. Supplier performance analysis can help a business understand which supplier relationships contribute significantly to sales.
+
+**Business Recommendation:**  
+The business could examine the supplier's product performance, purchase costs, and profit margins before making decisions about supplier relationships or purchasing priorities.
+
+**Evidence:**  
+See the SQL query and execution results in the project screenshots above.
+
+
 - The three employees handling the most orders.<img width="1353" height="684" alt="Employee with highest order handled" src="https://github.com/user-attachments/assets/354ec05a-b12f-480d-a933-e9b22be6e647" />
+
 
 
 ### File Descriptions
