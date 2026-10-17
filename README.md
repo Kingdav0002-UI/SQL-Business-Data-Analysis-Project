@@ -236,7 +236,8 @@ The business could review the product's sales trends and inventory levels to hel
 **Evidence:**  
 See the SQL query and execution results in the project screenshots above.
 
-- The category generating the highest sales revenue.<img width="1149" height="671" alt="Category with highest product sales revenue" src="https://github.com/user-attachments/assets/02340dd3-a953-4bd2-9931-fdc658c4aed3" />
+- ### The category generating the highest sales revenue.
+- <img width="1149" height="671" alt="Category with highest product sales revenue" src="https://github.com/user-attachments/assets/02340dd3-a953-4bd2-9931-fdc658c4aed3" />
 
 **SQL Techniques Used:**
 - `JOIN` to connect categories, products, and order details.
@@ -257,7 +258,8 @@ The business could examine the individual products driving Beverages sales, moni
 **Evidence:**  
 See the SQL query and execution results in the project screenshot above.
 
-- The supplier contributing the highest sales revenue.<img width="1341" height="674" alt="Suppliers product highest revenue" src="https://github.com/user-attachments/assets/9ea3a596-c75f-44f7-83a5-335612ae23f8" />
+- ### The supplier contributing the highest sales revenue.
+- <img width="1341" height="674" alt="Suppliers product highest revenue" src="https://github.com/user-attachments/assets/9ea3a596-c75f-44f7-83a5-335612ae23f8" />
 
 **SQL Techniques Used:**
 - `JOIN` to connect suppliers, products, and order details.
@@ -280,7 +282,8 @@ The business could examine the supplier's product performance, purchase costs, a
 See the SQL query and execution results in the project screenshots above.
 
 
-- The three employees handling the most orders.<img width="1353" height="684" alt="Employee with highest order handled" src="https://github.com/user-attachments/assets/354ec05a-b12f-480d-a933-e9b22be6e647" />
+- ### The three employees handling the most orders.
+- <img width="1353" height="684" alt="Employee with highest order handled" src="https://github.com/user-attachments/assets/354ec05a-b12f-480d-a933-e9b22be6e647" />
 
 
 
