@@ -284,6 +284,32 @@ See the SQL query and execution results in the project screenshots above.
 
 - ### The three employees handling the most orders.
   <img width="1353" height="684" alt="Employee with highest order handled" src="https://github.com/user-attachments/assets/354ec05a-b12f-480d-a933-e9b22be6e647" />
+  ### 5. Top 3 Employees by Orders Handled
+
+**Business Question:**  
+Which employees handled the highest number of orders?
+
+**SQL Techniques Used:**
+- `JOIN` to combine employee information with order records.
+- `COUNT()` to calculate the number of orders handled by each employee.
+- `GROUP BY` to aggregate orders by employee.
+- `ORDER BY DESC` to rank employees by order count.
+- `LIMIT 3` to return the top three employees.
+
+**Findings:**
+
+1. **Margaret Peacock** handled the highest number of orders, with 156 orders.
+2. **Janet Leverling** ranked second, with 127 orders.
+3. **Nancy Davolio** ranked third, with 123 orders.
+
+**Business Insight:**  
+Margaret Peacock handled 29 more orders than Janet Leverling, making her the highest-ranked employee by order count in this analysis.
+
+**Business Recommendation:**  
+Management could investigate how orders are distributed among employees and review whether workloads are balanced. Order count alone does not measure employee productivity or performance quality, so additional indicators such as processing time, accuracy, and customer satisfaction would provide a more complete assessment.
+
+**Evidence:**  
+See the SQL query and execution results in the project screenshot above.
 
 
 
