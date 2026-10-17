@@ -1,3 +1,4 @@
+<img width="1277" height="648" alt="Product with highest total quantity sold" src="https://github.com/user-attachments/assets/6c50ff9f-fba9-4780-b95b-2df8689dbca7" />
 # SQL-Business-Data-Anlysis-Project
 A SQL data analysis Project using SQLite to answer 15 business questions and generate insight from trnsactional data.
 
@@ -195,13 +196,32 @@ The questions address several areas of business decision-making.
 
 - The customer with the highest cumulative purchase value.<img width="1348" height="657" alt="Highest customer by cumultive purchase" src="https://github.com/user-attachments/assets/b1c9d84e-bbdc-4db2-b47e-467ab7f0499c" />
 
-- The product with the highest total quantity sold.
-- The category generating the highest sales revenue.
-- The supplier contributing the highest sales revenue.
-- The three employees handling the most orders.
-- The orders with shipping delays exceeding seven days.
-- The customers without order records.
-- The products that have never appeared in an order transaction.
+**SQL Techniques Used:**
+- `JOIN` to combine customer, order, and order detail records.
+- `SUM()` to calculate cumulative purchase value.
+- `GROUP BY` to aggregate purchases by customer.
+- `ORDER BY DESC` to rank customers by purchase value.
+- `LIMIT 1` to return the highest-ranking customer.
+
+**Finding:**  
+QUICK-Stop recorded the highest cumulative purchase value, with a total of **110,277.305**.
+
+**Business Insight:**  
+QUICK-Stop represents the highest-value customer based on the cumulative purchase calculation performed in this analysis. Identifying customers with high purchase values helps businesses understand where substantial sales activity comes from.
+
+**Business Recommendation:**  
+The business could investigate QUICK-Stop's purchasing patterns and explore opportunities to strengthen the customer relationship, encourage repeat purchases, and maintain sales performance.
+
+**Evidence:**  
+See the SQL query and its execution results in the project screenshots.
+
+- The product with the highest total quantity sold.<img width="1277" height="648" alt="Product with highest total quantity sold" src="https://github.com/user-attachments/assets/08832c94-5282-44a6-b7dd-234bf743be13" />
+
+- The category generating the highest sales revenue.<img width="1149" height="671" alt="Category with highest product sales revenue" src="https://github.com/user-attachments/assets/02340dd3-a953-4bd2-9931-fdc658c4aed3" />
+
+- The supplier contributing the highest sales revenue.<img width="1341" height="674" alt="Suppliers product highest revenue" src="https://github.com/user-attachments/assets/9ea3a596-c75f-44f7-83a5-335612ae23f8" />
+
+- The three employees handling the most orders.<img width="1353" height="684" alt="Employee with highest order handled" src="https://github.com/user-attachments/assets/354ec05a-b12f-480d-a933-e9b22be6e647" />
 
 
 ### File Descriptions
