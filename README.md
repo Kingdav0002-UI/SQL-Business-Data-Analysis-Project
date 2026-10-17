@@ -214,7 +214,8 @@ The business could investigate QUICK-Stop's purchasing patterns and explore oppo
 **Evidence:**  
 See the SQL query and its execution results in the project screenshots above.
 
-- The product with the highest total quantity sold.<img width="1277" height="648" alt="Product with highest total quantity sold" src="https://github.com/user-attachments/assets/08832c94-5282-44a6-b7dd-234bf743be13" />
+- ### The product with the highest total quantity sold.
+<img width="1277" height="648" alt="Product with highest total quantity sold" src="https://github.com/user-attachments/assets/08832c94-5282-44a6-b7dd-234bf743be13" />
 
 **SQL Techniques Used:**
 - `JOIN` to connect product records with order transaction details.
